@@ -1,0 +1,373 @@
+table DimProduct
+	lineageTag: 5edffb1f-7acf-4d78-8c8a-c2b9ca3688dc
+	sourceLineageTag: [dbo].[DimProduct]
+
+	column ProductKey
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: a4dc3a0c-6651-4441-abc3-bd5d0a20cbc1
+		sourceLineageTag: ProductKey
+		summarizeBy: none
+		sourceColumn: ProductKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductAlternateKey
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: deeaa23c-300b-4144-8076-259eadc551b0
+		sourceLineageTag: ProductAlternateKey
+		summarizeBy: none
+		sourceColumn: ProductAlternateKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductSubcategoryKey
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 2fe7a4c2-ce81-47bb-97af-57de4fb6bad1
+		sourceLineageTag: ProductSubcategoryKey
+		summarizeBy: none
+		sourceColumn: ProductSubcategoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeightUnitMeasureCode
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 0d8a4a41-e177-4f89-bd8d-89e199a23e77
+		sourceLineageTag: WeightUnitMeasureCode
+		summarizeBy: none
+		sourceColumn: WeightUnitMeasureCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column SizeUnitMeasureCode
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: ac9b7989-9a2d-46a2-9f61-8480fdbd180d
+		sourceLineageTag: SizeUnitMeasureCode
+		summarizeBy: none
+		sourceColumn: SizeUnitMeasureCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column EnglishProductName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 5d7ee224-b032-4a16-8b21-e80cab5d72ab
+		sourceLineageTag: EnglishProductName
+		summarizeBy: none
+		sourceColumn: EnglishProductName
+
+		annotation SummarizationSetBy = Automatic
+
+	column SpanishProductName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 3e63daf7-9da6-4673-8b8c-b93a07106829
+		sourceLineageTag: SpanishProductName
+		summarizeBy: none
+		sourceColumn: SpanishProductName
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrenchProductName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 61e5f0fd-3788-4f9b-adfc-0de25e30cbf7
+		sourceLineageTag: FrenchProductName
+		summarizeBy: none
+		sourceColumn: FrenchProductName
+
+		annotation SummarizationSetBy = Automatic
+
+	column StandardCost
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: adc4edac-ebb9-485b-81a5-3e70289e8356
+		sourceLineageTag: StandardCost
+		summarizeBy: none
+		sourceColumn: StandardCost
+
+		annotation SummarizationSetBy = Automatic
+
+	column FinishedGoodsFlag
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 06ec0c09-27af-4a7d-9da5-62224a0d3117
+		sourceLineageTag: FinishedGoodsFlag
+		summarizeBy: none
+		sourceColumn: FinishedGoodsFlag
+
+		annotation SummarizationSetBy = Automatic
+
+	column Color
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 8c7e1ce8-eaeb-4136-85fe-64f883f15af9
+		sourceLineageTag: Color
+		summarizeBy: none
+		sourceColumn: Color
+
+		annotation SummarizationSetBy = Automatic
+
+	column SafetyStockLevel
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: c8b549ec-b6f3-4960-9584-d3ea12043543
+		sourceLineageTag: SafetyStockLevel
+		summarizeBy: none
+		sourceColumn: SafetyStockLevel
+
+		annotation SummarizationSetBy = Automatic
+
+	column ReorderPoint
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 6abac5d4-eb6c-49c9-bb02-450e42aae61f
+		sourceLineageTag: ReorderPoint
+		summarizeBy: none
+		sourceColumn: ReorderPoint
+
+		annotation SummarizationSetBy = Automatic
+
+	column ListPrice
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 019f86eb-a888-4646-a790-328832b3f7ac
+		sourceLineageTag: ListPrice
+		summarizeBy: none
+		sourceColumn: ListPrice
+
+		annotation SummarizationSetBy = Automatic
+
+	column Size
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 637491a8-75cb-4725-8b8b-9dda09cde2fb
+		sourceLineageTag: Size
+		summarizeBy: none
+		sourceColumn: Size
+
+		annotation SummarizationSetBy = Automatic
+
+	column SizeRange
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 42b71d1d-baf7-4274-8e53-aeae3ba04133
+		sourceLineageTag: SizeRange
+		summarizeBy: none
+		sourceColumn: SizeRange
+
+		annotation SummarizationSetBy = Automatic
+
+	column Weight
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 51600856-721a-4ae2-951e-0bcab83aa20b
+		sourceLineageTag: Weight
+		summarizeBy: none
+		sourceColumn: Weight
+
+		annotation SummarizationSetBy = Automatic
+
+	column DaysToManufacture
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 2644d9ff-00d3-4730-b97c-289f3f9909cb
+		sourceLineageTag: DaysToManufacture
+		summarizeBy: none
+		sourceColumn: DaysToManufacture
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductLine
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 699a2b85-509e-48e1-a3e9-af366bf58264
+		sourceLineageTag: ProductLine
+		summarizeBy: none
+		sourceColumn: ProductLine
+
+		annotation SummarizationSetBy = Automatic
+
+	column DealerPrice
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: b84b9253-0d49-4384-86de-879b05d4e370
+		sourceLineageTag: DealerPrice
+		summarizeBy: none
+		sourceColumn: DealerPrice
+
+		annotation SummarizationSetBy = Automatic
+
+	column Class
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: f8dfcfc8-0e6a-4ac3-8f49-8749f432bab7
+		sourceLineageTag: Class
+		summarizeBy: none
+		sourceColumn: Class
+
+		annotation SummarizationSetBy = Automatic
+
+	column Style
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 58e45424-84f9-49cd-ad55-37aabf66563f
+		sourceLineageTag: Style
+		summarizeBy: none
+		sourceColumn: Style
+
+		annotation SummarizationSetBy = Automatic
+
+	column ModelName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 9c1943fc-878d-45e3-a604-3e8636eb281e
+		sourceLineageTag: ModelName
+		summarizeBy: none
+		sourceColumn: ModelName
+
+		annotation SummarizationSetBy = Automatic
+
+	column LargePhoto
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: c5441165-28b5-4f6c-89e0-ae72c527c7a8
+		sourceLineageTag: LargePhoto
+		summarizeBy: none
+		sourceColumn: LargePhoto
+
+		annotation SummarizationSetBy = Automatic
+
+	column EnglishDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 4d7a917a-27d2-4b8b-bf08-b16aa8994869
+		sourceLineageTag: EnglishDescription
+		summarizeBy: none
+		sourceColumn: EnglishDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column FrenchDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: d828661f-9a2a-4314-84c1-3ff84b872274
+		sourceLineageTag: FrenchDescription
+		summarizeBy: none
+		sourceColumn: FrenchDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column ChineseDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 843804ca-969c-4808-a56c-6ee8336ec668
+		sourceLineageTag: ChineseDescription
+		summarizeBy: none
+		sourceColumn: ChineseDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column ArabicDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: e4b25271-d84b-4825-b3d8-2eafb0902547
+		sourceLineageTag: ArabicDescription
+		summarizeBy: none
+		sourceColumn: ArabicDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column HebrewDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 61b7c0e0-539c-418d-befa-dbd0bd139bf0
+		sourceLineageTag: HebrewDescription
+		summarizeBy: none
+		sourceColumn: HebrewDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column ThaiDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 7e0b466b-74fa-4f96-b960-91cbb303225d
+		sourceLineageTag: ThaiDescription
+		summarizeBy: none
+		sourceColumn: ThaiDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column GermanDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 96fa8f0c-1f1c-4854-84ed-e362116eac5f
+		sourceLineageTag: GermanDescription
+		summarizeBy: none
+		sourceColumn: GermanDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column JapaneseDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 5b959a87-2cb9-4292-982a-ad2674e6bc24
+		sourceLineageTag: JapaneseDescription
+		summarizeBy: none
+		sourceColumn: JapaneseDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column TurkishDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 143c3ef7-04a6-4081-9eec-d9ea2c8da7f0
+		sourceLineageTag: TurkishDescription
+		summarizeBy: none
+		sourceColumn: TurkishDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column StartDate
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: b237858e-d549-4cf8-a218-008a4fe3ed03
+		sourceLineageTag: StartDate
+		summarizeBy: none
+		sourceColumn: StartDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column EndDate
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 536cea0a-8a82-492c-94ea-a330c98734d7
+		sourceLineageTag: EndDate
+		summarizeBy: none
+		sourceColumn: EndDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 290906e4-04b5-4d45-ad67-b464c1049a24
+		sourceLineageTag: Status
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimProduct = entity
+		mode: directLake
+		source
+			entityName: DimProduct
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

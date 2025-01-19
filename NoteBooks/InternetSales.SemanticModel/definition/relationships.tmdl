@@ -1,0 +1,16 @@
+relationship 707ff6a6-fe23-c1b6-3e3f-83b4a4457812
+	fromColumn: vwFactInternetSales.ProductCategoryKey
+	toColumn: DimProductSubcategory.ProductCategoryKey
+
+relationship d7167b1c-0766-39f3-f2d8-1d7942642160
+	fromColumn: vwFactInternetSales.OrderDateKey
+	toColumn: vwDimDate.DateKey
+
+relationship e60db5d0-b389-dfad-08dc-2f1a537221d3
+	fromColumn: vwFactInternetSales.ProductCategoryKey
+	toColumn: DimProductCategory.ProductCategoryKey
+
+relationship 9b8df102-17cb-a7c5-c2ac-2a54deb8f966
+	fromColumn: vwFactInternetSales.ProductKey
+	toColumn: DimProduct.ProductKey
+

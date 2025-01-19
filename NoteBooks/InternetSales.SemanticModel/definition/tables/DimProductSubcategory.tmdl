@@ -1,0 +1,53 @@
+table DimProductSubcategory
+	lineageTag: 416ccd94-858e-4a43-b245-098e2b0e9c66
+	sourceLineageTag: [dbo].[DimProductSubcategory]
+
+	column ProductSubcategoryKey
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 17ba9d18-5735-4773-8698-7faa0c869ba2
+		sourceLineageTag: ProductSubcategoryKey
+		summarizeBy: none
+		sourceColumn: ProductSubcategoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductSubcategoryAlternateKey
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 0d1f2ae6-dd6d-4d79-80ee-3d26ab340dc7
+		sourceLineageTag: ProductSubcategoryAlternateKey
+		summarizeBy: none
+		sourceColumn: ProductSubcategoryAlternateKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductSubcategoryName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 5cfd6409-7956-4871-ba99-5c716daf3f3e
+		sourceLineageTag: ProductSubcategoryName
+		summarizeBy: none
+		sourceColumn: ProductSubcategoryName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductCategoryKey
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: f7dd84e8-d76b-46b6-839a-726355f94456
+		sourceLineageTag: ProductCategoryKey
+		summarizeBy: none
+		sourceColumn: ProductCategoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimProductSubcategory = entity
+		mode: directLake
+		source
+			entityName: DimProductSubcategory
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+
